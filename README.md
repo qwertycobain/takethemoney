@@ -1,2 +1,0 @@
-# takethemoney
-im flippin prescriptions
