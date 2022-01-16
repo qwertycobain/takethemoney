@@ -1,0 +1,27 @@
+document.getElementsByClassName()  => obtem os elementos pelo nome da classe   class="classe"
+pode-se acessar os conteudos da classe atravez de um indice []
+
+exemplo document.getElementsByClassName("carro")[1];
+
+document.getElementById = faz o mesmo individualmente para cada ID
+
+document.getElementsByTagName = busca uma tag html, e então cria uma coleção com todos os conteudos, tornando-os acessaveis atraves do indice []
+se especificarmos o indice, ele não retorna uma coleção html.
+
+
+document.querySelector("") = retorna sempre a primeira ocorrencia, sem criar coleção html,
+podemos especificar a busca por, classe, id, tag ...
+
+
+
+document.querySelectorAll(".usage") retorna um nodelist != html colection, permite acessar atraves de indices [-]
+
+document.createElement("")  = cria ELEMENTO html de forma dinamica via javascript!
+
+appendChild() adiciona um ELEMENTO como filho de outro elementos
+exemplo: 
+var p = document.createElement("div")
+p.innerHTML = "aaaaaaaaaaaaaaaaaaaaaaaa"
+var a = document.getElementById("carros").appendChild(p) 
+
+removeChild() remove um elemento filho 
